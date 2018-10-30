@@ -5,27 +5,27 @@ package com.bvan.oop.hw.lesson6.parser;
  */
 public class FullName {
 
-    private final String name;
-    private final String surname;
+    private final String firstName;
+    private final String lastName;
 
-    public FullName(String name, String surname) {
-        this.name = name;
-        this.surname = surname;
+    public FullName(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
-    public String getName() {
-        return name;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public String getSurname() {
-        return surname;
+    public String getLastName() {
+        return lastName;
     }
 
     @Override
     public String toString() {
         return "FullName{" +
-                "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
+                "name='" + firstName + '\'' +
+                ", surname='" + lastName + '\'' +
                 '}';
     }
 }

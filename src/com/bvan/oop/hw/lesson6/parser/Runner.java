@@ -8,6 +8,6 @@ public class Runner {
     public static void main(String[] args) {
         FullNameConsoleReader reader = new FullNameConsoleReaderImpl();
         FullName fullName = reader.read();
-        System.out.println("Object is successfully created: " + fullName);
+        System.out.println(fullName);
     }
 }
